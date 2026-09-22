@@ -91,8 +91,8 @@ These record later workshop work in the same plan, not additional initial-build 
 - [x] Save `wiki/interview/questions.md` with prioritized questions for Dana and a separate data-clarification list for Marcus. Include alternatives to Pasadena, success criteria, POS migration, and allowed extracts.
 - [x] Update index/log and repeat link, citation, and confidentiality checks.
 - [ ] Obtain Joseph's actual review decisions for three entries. Agent checks do not substitute for student checks.
-- [ ] Commit and push to Joseph's public `meridian-capstone` repository after account access is established.
-- [ ] Open the GitHub spec and plan and check their contents; verify anonymous repository access. Record actual URLs in the submission checklist.
+- [x] Commit and push to Joseph's public `meridian-capstone` repository after account access is established.
+- [x] Open the GitHub spec and plan and check their contents; verify anonymous repository access. Record actual URLs in the submission checklist.
 
 ## Review record
 
@@ -130,4 +130,7 @@ Joseph approved the saved plan in conversation on September 22, 2026. Execution 
 
 Initial build complete: brief matched original; all relative links resolved; client facts and data scenarios checked by Codex. Local commit a62b016. Inline execution uses this plan as the work ledger, as the assignment requires. The approved course plan does not delegate or add automated tests for Markdown; direct source and link checks are the verification method.
 
+
+
+Publishing check: pushed commit 661060e to public main. Anonymous HTTP retrieval of spec, plan, and wiki/index returned 200 and matched local contents. Browser navigation opened the plan URL; full signed-out browser-window check is still distinct from the successful anonymous HTTP check.
 
