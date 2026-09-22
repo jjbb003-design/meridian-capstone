@@ -1,6 +1,6 @@
 # Brightspace submission — Joseph Barragan
 
-Status: preparation in progress. Do not submit this as complete while the Google Doc and public dashboard URLs are missing.
+Status: both repositories and the public dashboard are published. Google Docs sign-in, reading-note sharing, and Joseph’s personal review remain before submission.
 
 ## Links
 
@@ -8,7 +8,7 @@ Status: preparation in progress. Do not submit this as complete while the Google
 2. Reading notes: pending Google sign-in, template copy, personal review, and sharing with greg@lontok.com.
 3. Specification: https://github.com/jjbb003-design/meridian-capstone/blob/main/docs/superpowers/specs/2026-09-22-meridian-wiki-design.md
 4. Implementation plan: https://github.com/jjbb003-design/meridian-capstone/blob/main/docs/superpowers/plans/2026-09-22-meridian-wiki.md
-5. Tutorial dashboard: pending Streamlit account setup and public deployment verification.
+5. Tutorial dashboard: https://shopsmart-joseph-barragan.streamlit.app/
 6. Tutorial repository: https://github.com/jjbb003-design/ai-dev-workflow-tutorial
 
 ## Confidentiality paragraph
@@ -28,3 +28,5 @@ The spec and plan approvals are recorded. The following must be actual student c
 ## Access and deadline
 
 Codex verified anonymous HTTP access to the published capstone spec, plan, and index and matching local contents. A separate signed-out browser check and reading-note sharing verification still need to be recorded. The public class prompt sheet lists September 20 at 11:59 PM Pacific; Brightspace's actual deadline or any granted extension has not been verified. No Teams message or Brightspace submission has been sent.
+
+Dashboard deployment verified September 22, 2026: live page shows $116,500.21, 482 orders, the monthly trend, five categories, and four regions. Anonymous HTTP access returned 200; this is distinct from a separate signed-out browser rendering check.
