@@ -41,12 +41,12 @@
 
 **Produces:** Source-handling rules, ingest/query/maintenance procedures, a wiki entry point, and dated change history.
 
-- [ ] Write AGENTS.md with explicit allowed/prohibited data examples, provenance fields, direct citations, inference labels, and index/log update rules.
-- [ ] Write README with project purpose, fictional-client label, links to the brief, index, spec, and plan; accurately state publication status.
-- [ ] Add `.gitignore` exclusions for `.env`, virtual environments, caches, and a `private/` folder. Explain that ignore rules do not remove previously committed files or authorize confidential ingestion.
-- [ ] Create index and log, linking only files that exist at this stage.
-- [ ] Check the instructions against two scenarios: a loyalty CSV remains prohibited after names are removed; store-week sales totals may be AI-permitted but not automatically public. Record the actual finding below.
-- [ ] Show changed files for review, then commit when Git identity is available.
+- [x] Write AGENTS.md with explicit allowed/prohibited data examples, provenance fields, direct citations, inference labels, and index/log update rules.
+- [x] Write README with project purpose, fictional-client label, links to the brief, index, spec, and plan; accurately state publication status.
+- [x] Add `.gitignore` exclusions for `.env`, virtual environments, caches, and a `private/` folder. Explain that ignore rules do not remove previously committed files or authorize confidential ingestion.
+- [x] Create index and log, linking only files that exist at this stage.
+- [x] Check the instructions against two scenarios: a loyalty CSV remains prohibited after names are removed; store-week sales totals may be AI-permitted but not automatically public. Record the actual finding below.
+- [x] Show changed files for review, then commit when Git identity is available.
 
 **Done:** Instructions implement all four workflows and both data scenarios correctly; navigation opens real files.
 
@@ -58,12 +58,12 @@
 
 **Produces:** Cited client profile, decision context, assumptions, constraints, and unanswered questions.
 
-- [ ] Compare the saved brief with the assigned original and record whether the contents match.
-- [ ] Summarize the 14-store footprint, business model, dashboard request, uneven growth, and proposed Pasadena expansion, citing the original brief.
-- [ ] Explain that revenue, costs, and customer experience are distinct goals with no agreed priority or metric definitions yet.
-- [ ] Flag POS migration comparability, the board preview versus eight-week engagement, and data permissions for clarification.
-- [ ] Check every client fact against the brief. Ensure Pasadena is labeled a stakeholder preference rather than a validated recommendation.
-- [ ] Update index/log, show changed files, and commit when identity is available.
+- [x] Compare the saved brief with the assigned original and record whether the contents match.
+- [x] Summarize the 14-store footprint, business model, dashboard request, uneven growth, and proposed Pasadena expansion, citing the original brief.
+- [x] Explain that revenue, costs, and customer experience are distinct goals with no agreed priority or metric definitions yet.
+- [x] Flag POS migration comparability, the board preview versus eight-week engagement, and data permissions for clarification.
+- [x] Check every client fact against the brief. Ensure Pasadena is labeled a stakeholder preference rather than a validated recommendation.
+- [x] Update index/log, show changed files, and commit when identity is available.
 
 **Done:** Every client fact is supported, assumptions are explicit, and the page adds no invented store performance.
 
@@ -71,11 +71,11 @@
 
 **Files:** Review all Task 1–2 files; update this plan and `wiki/log.md`.
 
-- [ ] Read AGENTS.md, index, log, and client page against the spec.
-- [ ] Check all relative Markdown link targets exist and every wiki page is linked from the index.
-- [ ] Inspect repository contents for accidental secrets, private client data, and unsupported claims.
-- [ ] Record real findings and corrections; mark the initial build complete only when checks pass.
-- [ ] Show the initial wiki for review before starting public-source ingestion.
+- [x] Read AGENTS.md, index, log, and client page against the spec.
+- [x] Check all relative Markdown link targets exist and every wiki page is linked from the index.
+- [x] Inspect repository contents for accidental secrets, private client data, and unsupported claims.
+- [x] Record real findings and corrections; mark the initial build complete only when checks pass.
+- [x] Show the initial wiki for review before starting public-source ingestion.
 
 **Done:** A usable, checked wiki based solely on the brief. Specific public-source ingestion is not part of these initial build tasks.
 
@@ -83,13 +83,13 @@
 
 These record later workshop work in the same plan, not additional initial-build tasks.
 
-- [ ] Ingest the assigned ICSC article into `raw/icsc-grocery-formats-2026.md` and `wiki/sources/icsc-grocery-formats-2026.md`. Preserve title, date, original URL, and limited supporting excerpts. Update index/log.
-- [ ] Check one ICSC claim against the original article, preserving whether a location is open or under development. Record the check and decision below.
-- [ ] Ingest JLL's Grocery Report 2025 into corresponding raw/source pages, checking that 2024 openings are not mislabeled 2025 openings.
-- [ ] Select a third accessible source from the class list, based on expansion criteria. If retrieval fails, use another accessible listed source and record why.
-- [ ] Save `wiki/synthesis/expansion.md`, answering where specialty grocers are opening with direct citations and explicit inferences.
-- [ ] Save `wiki/interview/questions.md` with prioritized questions for Dana and a separate data-clarification list for Marcus. Include alternatives to Pasadena, success criteria, POS migration, and allowed extracts.
-- [ ] Update index/log and repeat link, citation, and confidentiality checks.
+- [x] Ingest the assigned ICSC article into `raw/icsc-grocery-formats-2026.md` and `wiki/sources/icsc-grocery-formats-2026.md`. Preserve title, date, original URL, and limited supporting excerpts. Update index/log.
+- [x] Check one ICSC claim against the original article, preserving whether a location is open or under development. Record the check and decision below.
+- [x] Ingest JLL's Grocery Report 2025 into corresponding raw/source pages, checking that 2024 openings are not mislabeled 2025 openings.
+- [x] Select a third accessible source from the class list, based on expansion criteria. If retrieval fails, use another accessible listed source and record why.
+- [x] Save `wiki/synthesis/expansion.md`, answering where specialty grocers are opening with direct citations and explicit inferences.
+- [x] Save `wiki/interview/questions.md` with prioritized questions for Dana and a separate data-clarification list for Marcus. Include alternatives to Pasadena, success criteria, POS migration, and allowed extracts.
+- [x] Update index/log and repeat link, citation, and confidentiality checks.
 - [ ] Obtain Joseph's actual review decisions for three entries. Agent checks do not substitute for student checks.
 - [ ] Commit and push to Joseph's public `meridian-capstone` repository after account access is established.
 - [ ] Open the GitHub spec and plan and check their contents; verify anonymous repository access. Record actual URLs in the submission checklist.
@@ -106,12 +106,16 @@ These record later workshop work in the same plan, not additional initial-build 
 ### Review 2 — Original-source research claim
 
 - **Request:** Summarize a public grocery source with citations and verify a numerical or location claim against the original.
-- **Result/check/decision:** Pending ingestion. Record the exact claim, source section, measurement year, finding, and Joseph's decision after the actual review.
+- **Result:** Source pages and a cited synthesis were saved. A key JLL claim is that Sprouts opened 35 stores in 2024.
+- **Check by Codex:** Opened JLL's original Grocery Report 2025 and read the Fastest-growing grocers in 2024 section. The number is supported; 2025 is publication year, not the opening year. Also checked ICSC: Redlands is described as under development, not already open.
+- **Agent decision:** Accept the qualified claims and preserve their dates/status. Joseph's independent source check and decision are still pending.
 
 ### Review 3 — Cited answer and interview usefulness
 
 - **Request:** Answer where specialty grocers are opening and identify a useful question for Dana.
-- **Result/check/decision:** Pending synthesis. Follow a citation to its original and distinguish a supported location example from an unsupported recommendation for Meridian. Record Joseph's actual acceptance or change and why.
+- **Result:** Saved wiki/synthesis/expansion.md and wiki/interview/questions.md.
+- **Check by Codex:** Followed the synthesis citations to ICSC and JLL. Their location examples are supported, but neither compares Meridian's Pasadena option with alternatives. All relative links resolve; all eight wiki pages appear in the index.
+- **Agent decision:** Accept the examples as interview context; do not recommend Pasadena on this evidence. Proposed question: what would make Dana reject Pasadena? Joseph's usefulness judgment and decision remain pending.
 
 ## Plan self-review
 
@@ -120,4 +124,10 @@ Codex checked this plan against the approved spec: initial build remains separat
 ## Execution approval
 
 Joseph approved the saved plan in conversation on September 22, 2026. Execution is inline. This records expressed approval, not an independent student source check.
+
+
+## Execution evidence
+
+Initial build complete: brief matched original; all relative links resolved; client facts and data scenarios checked by Codex. Local commit a62b016. Inline execution uses this plan as the work ledger, as the assignment requires. The approved course plan does not delegate or add automated tests for Markdown; direct source and link checks are the verification method.
+
 
