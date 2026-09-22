@@ -1,6 +1,6 @@
 # Brightspace submission — Joseph Barragan
 
-Status: Joseph reports submitting the six links and confidentiality paragraph, sharing the Google Doc, and reviewing/accepting the work. Specific personal check findings and reasons still need to be recorded in the plan.
+Status: Joseph reports submitting the six links and confidentiality paragraph, sharing the Google Doc, and reviewing/accepting the work. His reported checks and accepted review reasons are now recorded in the plan.
 
 ## Links
 
@@ -15,9 +15,9 @@ Status: Joseph reports submitting the six links and confidentiality paragraph, s
 
 Read and personalize the [draft paragraph](confidentiality-draft.md). The assignment asks for your own words. Main point: store-week sales and store attributes are AI-permitted; customer/employee data and excerpts are prohibited; mixed files must be separated without first giving the original to AI. AI permission does not authorize public GitHub release.
 
-## Review details to record after overall acceptance
+## Review checklist and recorded follow-up
 
-The spec and plan approvals are recorded. The following must be actual student checks, not statements copied from Codex's work:
+The spec and plan approvals are recorded. Joseph later reported reviewing the work, confirmed the JLL check, and adopted the data-boundary and interview-question reasons in the plan. The original review checklist below remains a reference for explaining the work:
 
 1. **Data boundaries:** Read the client brief's Terms of engagement and the confidentiality paragraph. Explain how you would handle a file with weekly sales plus loyalty records. Decide whether to accept or change the paragraph and why.
 2. **Research claim:** Open [JLL's original report](https://www.jll.com/en-us/insights/market-perspectives/grocery-tracker), find “Fastest-growing grocers in 2024,” and compare its Sprouts sentence with [the source notes](../raw/jll-grocery-report-2025.md). Check the 35 openings and the year. Tell Codex what you found and whether you accept or change the summary; the decision will be recorded in the plan.
