@@ -1,11 +1,11 @@
 # Brightspace submission — Joseph Barragan
 
-Status: both repositories and the public dashboard are published. Google Docs sign-in, reading-note sharing, and Joseph’s personal review remain before submission.
+Status: Joseph reports submitting the six links and confidentiality paragraph, sharing the Google Doc, and reviewing/accepting the work. Specific personal check findings and reasons still need to be recorded in the plan.
 
 ## Links
 
 1. Capstone workspace: https://github.com/jjbb003-design/meridian-capstone
-2. Reading notes: pending Google sign-in, template copy, personal review, and sharing with greg@lontok.com.
+2. Reading notes: https://docs.google.com/document/d/18BmX410OF8iWom0li0PR2-RaE0d4n4QJXka8hGqhll0/edit — notes filled and saved; Joseph reports sharing the document. Recipient and role have not been independently verified.
 3. Specification: https://github.com/jjbb003-design/meridian-capstone/blob/main/docs/superpowers/specs/2026-09-22-meridian-wiki-design.md
 4. Implementation plan: https://github.com/jjbb003-design/meridian-capstone/blob/main/docs/superpowers/plans/2026-09-22-meridian-wiki.md
 5. Tutorial dashboard: https://shopsmart-joseph-barragan.streamlit.app/
@@ -15,7 +15,7 @@ Status: both repositories and the public dashboard are published. Google Docs si
 
 Read and personalize the [draft paragraph](confidentiality-draft.md). The assignment asks for your own words. Main point: store-week sales and store attributes are AI-permitted; customer/employee data and excerpts are prohibited; mixed files must be separated without first giving the original to AI. AI permission does not authorize public GitHub release.
 
-## Personal review still required
+## Review details to record after overall acceptance
 
 The spec and plan approvals are recorded. The following must be actual student checks, not statements copied from Codex's work:
 
@@ -27,6 +27,6 @@ The spec and plan approvals are recorded. The following must be actual student c
 
 ## Access and deadline
 
-Codex verified anonymous HTTP access to the published capstone spec, plan, and index and matching local contents. A separate signed-out browser check and reading-note sharing verification still need to be recorded. The public class prompt sheet lists September 20 at 11:59 PM Pacific; Brightspace's actual deadline or any granted extension has not been verified. No Teams message or Brightspace submission has been sent.
+Codex verified anonymous HTTP access to the published capstone spec, plan, and index and matching local contents. A separate signed-out browser check and reading-note sharing verification still need to be recorded. The public class prompt sheet lists September 20 at 11:59 PM Pacific; Brightspace's actual deadline or any granted extension has not been verified. Codex sent no Teams message or Brightspace submission; Joseph subsequently reported submitting it himself.
 
 Dashboard deployment verified September 22, 2026: live page shows $116,500.21, 482 orders, the monthly trend, five categories, and four regions. Anonymous HTTP access returned 200; this is distinct from a separate signed-out browser rendering check.

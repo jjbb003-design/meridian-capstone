@@ -37,4 +37,6 @@ The [class template](https://docs.google.com/document/d/12ArfdHGUMrj-r6mhb1EDH1f
 3. After reviewing the book and draft, paste the Chapter 1 and Chapter 2 entries into their corresponding sections. Keep later chapter sections for future workshops.
 4. Share with `greg@lontok.com` as Commenter, then verify access and record the document URL.
 
-Current status: local draft only; no Google Doc has been created or shared.
+Current status: draft notes inserted into the private Google Doc and verified by a fresh export on September 22, 2026. Introduction and Chapters 1–2 contain question/quote/comment entries; later chapters remain for future workshops. Joseph requested no sharing before his review. Document: https://docs.google.com/document/d/18BmX410OF8iWom0li0PR2-RaE0d4n4QJXka8hGqhll0/edit
+
+Update: Joseph subsequently reported reviewing the work, sharing the Google Doc, and submitting its link. No additional sharing action was performed by Codex.
