@@ -1,0 +1,123 @@
+# Meridian Research Wiki Implementation Plan
+
+> **For agentic workers:** Use superpowers:executing-plans to implement this plan task-by-task, inline as requested by the course. Steps use checkbox syntax for tracking. Do not delegate.
+
+**Goal:** Build a traceable research wiki for Joseph Barragan's October 16 Meridian stakeholder interview.
+
+**Architecture:** Plain Markdown separates preserved source material from cited wiki pages. An index provides navigation and an append-only log records changes. The initial build uses only the client brief; public research follows afterward.
+
+**Tech Stack:** Markdown, Git, GitHub, PowerShell for file and link checks.
+
+**Spec:** [Approved specification](../specs/2026-09-22-meridian-wiki-design.md).
+
+**Status:** Joseph approved the saved plan in conversation ("the other thing is chill") after the explicit plan-review request. Inline execution began September 22, 2026.
+
+## Global constraints
+
+- Public repository name: `meridian-capstone`.
+- The brief is fictional client context, not independent public research.
+- Include the required ICSC article dated April 24, 2026 and two additional public sources from the course list.
+- Customer records and employee data must never enter AI, including excerpts. Removing names does not change this rule.
+- Permission for AI use is not permission for public GitHub publication.
+- Label source notes as summaries when they are not complete copies. Preserve dates, units, geographic scope, and qualifications.
+- Record Joseph's decisions only when he actually supplies them. Identify Codex checks separately.
+- Keep the dashboard tutorial in its own repository.
+
+## Review focus
+
+1. Mixed confidential files: reject the original for AI ingestion; request an independently prepared allowed extract.
+2. Pasadena confirmation bias: treat it as a proposed site, not an evidence-backed conclusion.
+3. Numerical ambiguity: distinguish store openings, visits, revenue, and forecasts; preserve measurement year.
+4. Unavailable sources: do not summarize an error page or claim to have read inaccessible content.
+5. Broken navigation: verify every relative Markdown link and every wiki page's index entry.
+
+## Initial wiki build
+
+### Task 1: Project instructions and navigation
+
+**Files:** Create `AGENTS.md`, `README.md`, `.gitignore`, `wiki/index.md`, and `wiki/log.md`.
+
+**Consumes:** Approved spec and preserved `raw/client-brief.md`.
+
+**Produces:** Source-handling rules, ingest/query/maintenance procedures, a wiki entry point, and dated change history.
+
+- [ ] Write AGENTS.md with explicit allowed/prohibited data examples, provenance fields, direct citations, inference labels, and index/log update rules.
+- [ ] Write README with project purpose, fictional-client label, links to the brief, index, spec, and plan; accurately state publication status.
+- [ ] Add `.gitignore` exclusions for `.env`, virtual environments, caches, and a `private/` folder. Explain that ignore rules do not remove previously committed files or authorize confidential ingestion.
+- [ ] Create index and log, linking only files that exist at this stage.
+- [ ] Check the instructions against two scenarios: a loyalty CSV remains prohibited after names are removed; store-week sales totals may be AI-permitted but not automatically public. Record the actual finding below.
+- [ ] Show changed files for review, then commit when Git identity is available.
+
+**Done:** Instructions implement all four workflows and both data scenarios correctly; navigation opens real files.
+
+### Task 2: Client brief page
+
+**Files:** Create `wiki/client/meridian-markets.md`; update `wiki/index.md` and `wiki/log.md`.
+
+**Consumes:** `raw/client-brief.md` and Task 1 instructions.
+
+**Produces:** Cited client profile, decision context, assumptions, constraints, and unanswered questions.
+
+- [ ] Compare the saved brief with the assigned original and record whether the contents match.
+- [ ] Summarize the 14-store footprint, business model, dashboard request, uneven growth, and proposed Pasadena expansion, citing the original brief.
+- [ ] Explain that revenue, costs, and customer experience are distinct goals with no agreed priority or metric definitions yet.
+- [ ] Flag POS migration comparability, the board preview versus eight-week engagement, and data permissions for clarification.
+- [ ] Check every client fact against the brief. Ensure Pasadena is labeled a stakeholder preference rather than a validated recommendation.
+- [ ] Update index/log, show changed files, and commit when identity is available.
+
+**Done:** Every client fact is supported, assumptions are explicit, and the page adds no invented store performance.
+
+### Task 3: Initial wiki acceptance check
+
+**Files:** Review all Task 1–2 files; update this plan and `wiki/log.md`.
+
+- [ ] Read AGENTS.md, index, log, and client page against the spec.
+- [ ] Check all relative Markdown link targets exist and every wiki page is linked from the index.
+- [ ] Inspect repository contents for accidental secrets, private client data, and unsupported claims.
+- [ ] Record real findings and corrections; mark the initial build complete only when checks pass.
+- [ ] Show the initial wiki for review before starting public-source ingestion.
+
+**Done:** A usable, checked wiki based solely on the brief. Specific public-source ingestion is not part of these initial build tasks.
+
+## Subsequent workshop activities — after initial build
+
+These record later workshop work in the same plan, not additional initial-build tasks.
+
+- [ ] Ingest the assigned ICSC article into `raw/icsc-grocery-formats-2026.md` and `wiki/sources/icsc-grocery-formats-2026.md`. Preserve title, date, original URL, and limited supporting excerpts. Update index/log.
+- [ ] Check one ICSC claim against the original article, preserving whether a location is open or under development. Record the check and decision below.
+- [ ] Ingest JLL's Grocery Report 2025 into corresponding raw/source pages, checking that 2024 openings are not mislabeled 2025 openings.
+- [ ] Select a third accessible source from the class list, based on expansion criteria. If retrieval fails, use another accessible listed source and record why.
+- [ ] Save `wiki/synthesis/expansion.md`, answering where specialty grocers are opening with direct citations and explicit inferences.
+- [ ] Save `wiki/interview/questions.md` with prioritized questions for Dana and a separate data-clarification list for Marcus. Include alternatives to Pasadena, success criteria, POS migration, and allowed extracts.
+- [ ] Update index/log and repeat link, citation, and confidentiality checks.
+- [ ] Obtain Joseph's actual review decisions for three entries. Agent checks do not substitute for student checks.
+- [ ] Commit and push to Joseph's public `meridian-capstone` repository after account access is established.
+- [ ] Open the GitHub spec and plan and check their contents; verify anonymous repository access. Record actual URLs in the submission checklist.
+
+## Review record
+
+### Review 1 — Design and data boundaries
+
+- **Request and result:** Joseph asked for assignment completion and approved the proposed wiki direction and linked spec. Codex produced the saved spec and this implementation plan.
+- **Check performed by Codex:** Read the assigned brief's Terms of engagement and compared the spec's rules. The spec prohibits customer/employee records and distinguishes AI use from public publication.
+- **Joseph's decision:** Approved the proposed direction on September 22, 2026. No independent source check by Joseph has been reported.
+- **Student check still needed:** Explain how a mixed sales-and-loyalty file would be handled and confirm or change the drafted confidentiality paragraph.
+
+### Review 2 — Original-source research claim
+
+- **Request:** Summarize a public grocery source with citations and verify a numerical or location claim against the original.
+- **Result/check/decision:** Pending ingestion. Record the exact claim, source section, measurement year, finding, and Joseph's decision after the actual review.
+
+### Review 3 — Cited answer and interview usefulness
+
+- **Request:** Answer where specialty grocers are opening and identify a useful question for Dana.
+- **Result/check/decision:** Pending synthesis. Follow a citation to its original and distinguish a supported location example from an unsupported recommendation for Meridian. Record Joseph's actual acceptance or change and why.
+
+## Plan self-review
+
+Codex checked this plan against the approved spec: initial build remains separate from public ingestion; all required files have an owner; data boundaries, citation checks, navigation, and publication verification are covered. No dashboard code is included because it belongs in a separate project. Pending statuses describe work not yet performed, not claims of completion.
+
+## Execution approval
+
+Joseph approved the saved plan in conversation on September 22, 2026. Execution is inline. This records expressed approval, not an independent student source check.
+
